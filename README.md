@@ -1,30 +1,31 @@
-Agency Jekyll theme
-====================
+# YAX-Coming-soon-Jekyll-Template
+Free Bootstrap HTML5 CSS3 Responsive Coming soon  Jekyll template
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+Designed by : Ilya B.  
+url: https://www.behance.net/gallery/18421675/Free-Bootstrap-Psd-Coming-Soon-Template  
 
-# How to use
+Converted PSD to HTML/CSS by:  
+Morteza Aghili  
+bio: http://mortezaaghili.github.io/  
 
-###Portfolio 
+Adapted to Jekyll by [yonojoy](https://github.com/yonojoy)
 
-Portfolio projects are in '/_posts'
+## Usage
+Edit `index.md` to contain your message.
 
-Images are in '/img/portfolio'
+Edit `_config.yml` and add the following params:
 
-###About
+* `countdown` to contain the target date in GMT/UTC
+* `owner` to contain infos about the site owner.
 
-Images are in '/img/about/'
+That's it.
 
-###Team
+## Installation
 
-Team members and info are in '_config.yml'
+Requires [Jekyll](http://jekyllrb.com/) 3+.
 
-Images are in '/img/team/'
+If you are creating a new Jekyll site using Skinny Bones following these steps:
 
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+1. Download and unzip.
+2. Run `bundle install` to install all dependencies
+3. Update `_config.yml` and `index.md` as described above.
