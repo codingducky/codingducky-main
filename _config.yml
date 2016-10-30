@@ -4,7 +4,7 @@ description: "Tell Ducky Your Problems!"
 baseurl: "" # the subpath of your site
 url: ""
 
-User settings
+# User settings
 username: Tell me your problems and what you think could fix them.
 # user_title: Lorem Ipsum - FrontEnd
 # email: lorem.lorem@ipsum.com
