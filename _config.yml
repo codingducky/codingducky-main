@@ -1,8 +1,8 @@
 # Site settings
 title: "Coding Ducky"
 description: "Tell Ducky Your Problems!"
-baseurl: "/" # the subpath of your site
-url: "http://codingducky.com"
+baseurl: "" # the subpath of your site
+url: ""
 
 # User settings
 # username: lorem ipsum
