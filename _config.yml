@@ -1,42 +1,50 @@
-# Site wide configuration
-
+# Site settings
 title: "Coding Ducky"
-description: "New and Improved Site Coming Soon!"
-#if you modify locale please have a look at _data/messages.yml too
-locale: en
-#for meta name="author" :
-author:
+description: "Tell Ducky Your Problems!"
+baseurl: "/" # the subpath of your site
+url: "http://codingducky.com"
 
-#Target date in UTC / GMT
-countdown:
-  theme: red
-  year: 2016
-  month: 6
-  day: 2
-  hour: 0
-  minute: 0
+# User settings
+# username: lorem ipsum
+# user_title: Lorem Ipsum - FrontEnd
+# email: lorem.lorem@ipsum.com
+# twitter_username: loremipsum
+# github_username:  loremipsum
+# gplus_username:  loremipsum
+# disqus_username: loremipsum
 
-# Site owner
-owner:
-  name: Jim Howk
-  email:
-  twitter:
-  google-plus:
-  instagramm:
-  #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
-  aboutlink:
-    url: http://www.tirelesswake.com
-    caption: Click to go back to Tireless Wake Headquarters
-
-
-# Jekyll configuration
-sass:
-  sass_dir: _sass
-  style: compressed
-permalink: /:categories/:title/
-kramdown:
-  toc_levels: 1..2
+# Build settings
+markdown: kramdown
 highlighter: rouge
+permalink: /:title/
 
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  # - title: my posts
+  #   url: /posts
+  # - title: series
+  #   url: /series
+  # - title: tags
+  #   url: /tags
+  - title: about
+    url: /about
+# projects in header index
+# projects:
+#   - name: asciilang
+#     url: https://github.com/victorvoid/asciilang
+#   - name: vim-frontend
+#     url: https://github.com/victorvoid/vim-frontend
+#   - name: generator-capybara
+#     url: https://github.com/victorvoid/generator-capybara
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

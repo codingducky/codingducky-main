@@ -1,0 +1,42 @@
+# Site wide configuration
+
+title: "Coding Ducky"
+description: "New and Improved Site Coming Soon!"
+#if you modify locale please have a look at _data/messages.yml too
+locale: en
+#for meta name="author" :
+author:
+
+#Target date in UTC / GMT
+countdown:
+  theme: red
+  year: 2016
+  month: 6
+  day: 2
+  hour: 0
+  minute: 0
+
+# Site owner
+owner:
+  name: Tireless Wake
+  email:
+  twitter:
+  google-plus:
+  instagramm:
+  #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
+  aboutlink:
+    url: http://www.tirelesswake.com
+    caption: Click to go back to Tireless Wake Headquarters
+
+
+# Jekyll configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
